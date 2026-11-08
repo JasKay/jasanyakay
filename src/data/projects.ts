@@ -24,6 +24,7 @@ export interface Project {
   learnings: string[];
 
   externalLink?: string;
+  extensionLink?: string;
   status?: string;
   category?: string;
   headline?: string;
@@ -318,6 +319,7 @@ export const projects: Project[] = [
 
   {
     slug: "gradezy",
+    extensionLink: "https://microsoftedge.microsoft.com/addons/detail/gradezy-%E2%80%94-assessment-comp/iocfhndobdbbiemehcnpfnippohngocn",
     title: "Gradezy",
     subtitle:
       "An assessment workflow tool designed to reduce repetitive grading and review work.",
