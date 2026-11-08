@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import { Header } from "./Header";
 import { ContactBlock } from "./ContactBlock";
 import { Linkedin, Twitter, BookOpen, PenLine } from "lucide-react";
@@ -33,7 +33,6 @@ export const Layout = ({ children }: LayoutProps) => {
         <div className="max-w-[1280px] mx-auto px-6 py-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-muted-foreground">© {new Date().getFullYear()} Kay Jasanya · Product, data & applied AI</p>
           <div className="flex items-center gap-4">
-            <Link to="/research" className="text-xs text-muted-foreground hover:text-foreground">Research</Link>
             <a
               href="https://www.linkedin.com/in/jaskay"
               target="_blank"
