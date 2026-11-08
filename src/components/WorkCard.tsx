@@ -15,6 +15,7 @@ export const WorkCard = ({ project, index }: { project: Project; index: number }
     <div className="project-links">
       <Link to={`/project/${project.slug}`} className="text-link" aria-label={`Read ${project.title} case study`}>Inside the case study <ArrowRight size={15} aria-hidden="true" /></Link>
       {productUrl && <a href={productUrl} target="_blank" rel="noopener noreferrer" className="product-external" aria-label={`Open ${project.title} product in a new tab`}>{project.slug === "citiwatch" ? "Publication" : "Live product"} <ArrowUpRight size={13} aria-hidden="true" /></a>}
+      {project.extensionLink && <a href={project.extensionLink} target="_blank" rel="noopener noreferrer" className="product-external">Get Edge extension <ArrowUpRight size={13} aria-hidden="true" /></a>}
     </div>
   </article>
 );
