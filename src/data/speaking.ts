@@ -33,7 +33,7 @@ export const speakingEngagements = [
     host: "NSF I-Corps Hub, Mid-Atlantic · Morgan State University",
     date: "5 February 2024",
     role: "Event host / Emcee",
-    description: "Hosted the second annual gathering celebrating Black founders in Maryland’s I-Corps community, bringing entrepreneurs and regional innovation partners into the same room.",
+    description: "Served as event host and emcee for the second annual gathering celebrating Black founders in Maryland’s I-Corps community, bringing entrepreneurs and regional innovation partners into the same room.",
     link: speakingLinks.nsf,
     linkLabel: "Read the event report",
   },
