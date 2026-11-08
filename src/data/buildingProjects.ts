@@ -45,13 +45,6 @@ export const buildingGroups: { title: string; projects: BuildingProject[] }[] = 
     title: "Extensions",
     projects: [
       {
-        name: "StaffAdvantage",
-        description: "Browser tooling for faster assessment workflows.",
-        status: "BUILDING",
-        url: "https://microsoftedge.microsoft.com/addons/detail/staffadvantage-grade-fill/iocfhndobdbbiemehcnpfnippohngocn",
-        icon: "S",
-      },
-      {
         name: "CareerFill",
         description: "Tools for making the career application process easier.",
         status: "LIVE",
