@@ -70,17 +70,6 @@ export const buildingGroups: { title: string; projects: BuildingProject[] }[] = 
     ],
   },
   {
-    title: "Games",
-    projects: [
-      {
-        name: "QuizForge",
-        status: "LIVE",
-        url: "https://quizforge-lilac.vercel.app/",
-        icon: "Q",
-      },
-    ],
-  },
-  {
     title: "In Progress",
     projects: [
       {
