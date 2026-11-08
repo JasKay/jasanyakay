@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { Header } from "./Header";
 import { ContactBlock } from "./ContactBlock";
-import { Linkedin, Twitter, BookOpen, PenLine } from "lucide-react";
+import { Linkedin, Twitter, BookOpen } from "lucide-react";
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -50,15 +50,6 @@ export const Layout = ({ children }: LayoutProps) => {
               title="X"
             >
               <Twitter className="w-4 h-4" />
-            </a>
-            <a
-              href="https://jaskay.medium.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-foreground transition-colors"
-              title="Medium"
-            >
-              <PenLine className="w-4 h-4" />
             </a>
             <a
               href="https://www.linkedin.com/newsletters/6979264804028829696/"
