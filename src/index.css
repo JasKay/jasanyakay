@@ -428,3 +428,32 @@
   .research-review > div > p:not(.eyebrow) { @apply text-xs leading-7 text-muted-foreground max-w-[440px] mb-5; }
   .research-review .research-review-record { @apply text-[10px] text-primary; }
 }
+
+@layer components {
+  .judging-home { @apply border-t border-border pt-10 pb-16 mt-10; }
+  .judging-home > div { @apply grid md:grid-cols-2 gap-7 md:gap-16 mt-7; }
+  .judging-home h2, .judging-peer-review h2 { font-family: var(--serif); font-size: clamp(2.8rem,4.5vw,4.2rem); line-height: 1.05; font-weight: 400; letter-spacing: -.02em; }
+  .judging-home em, .judging-intro em, .judging-peer-review em { @apply text-primary; }
+  .judging-home > div > div > p { @apply text-sm leading-7 text-muted-foreground max-w-[450px] mb-6; }
+  .judging-intro { @apply pt-3 pb-12 sm:pb-16; }
+  .judging-intro h1 { font-size: clamp(3rem,6.5vw,6rem); line-height: 1.02; font-weight: 400; letter-spacing: -.025em; margin: 28px 0 36px; }
+  .judging-intro-bottom { @apply flex flex-col lg:flex-row lg:items-end justify-between gap-7; }
+  .judging-intro-bottom p { @apply text-sm leading-7 text-muted-foreground max-w-[520px]; }
+  .judging-intro-bottom a { @apply text-[10px]; }
+  .judging-engagement { @apply grid md:grid-cols-[180px_1fr] gap-6 md:gap-12 border-b border-border py-9 sm:py-12; }
+  .judging-engagement-meta { @apply flex flex-wrap md:flex-col gap-4 text-[10px] text-muted-foreground; }
+  .judging-engagement-meta span:first-child { @apply text-primary; }
+  .judging-engagement h3 { font-family: var(--serif); font-size: clamp(1.9rem,3.2vw,2.8rem); line-height: 1.12; font-weight: 400; margin: 18px 0; }
+  .judging-description { @apply text-sm leading-7 max-w-[640px] text-muted-foreground mb-6; }
+  .judging-engagement-footer { @apply flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3; }
+  .judging-engagement-footer .text-link { @apply text-[10px]; }
+  .judging-status { @apply inline-flex w-fit border border-border px-2.5 py-1 text-[9px] uppercase tracking-[0.12em] text-muted-foreground; }
+  .judging-status.upcoming { @apply text-primary border-primary/30; }
+  .judging-peer-review { @apply grid md:grid-cols-2 gap-10 md:gap-16 bg-secondary p-6 sm:p-10 lg:p-14 my-16 sm:my-24; }
+  .judging-peer-review h2 { @apply mt-6; }
+  .judging-peer-review h3 { font-family: var(--serif); font-size: 30px; line-height: 1.15; margin: 24px 0 18px; }
+  .judging-peer-review > div > p:not(.eyebrow) { @apply text-xs leading-7 text-muted-foreground max-w-[480px] mb-5; }
+  .judging-peer-review .judging-review-record { @apply text-[10px] text-primary; }
+  .judging-review-links { @apply flex flex-col items-start gap-1 mt-4; }
+  .judging-review-links .text-link { @apply text-[10px]; }
+}

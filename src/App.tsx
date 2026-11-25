@@ -18,6 +18,7 @@ import NotFound from "./pages/NotFound";
 import Tutoring from "./pages/Tutoring";
 import Resume from "./pages/Resume";
 import Speaking from "./pages/Speaking";
+import Judging from "./pages/Judging";
 import Research from "./pages/Research";
 const Extraordinaire = lazy(() => import("./pages/Extraordinaire"));
 const evidencePage = <Suspense fallback={<p role="status" className="p-6">Loading records...</p>}><Extraordinaire /></Suspense>;
@@ -45,6 +46,7 @@ export const AppContent = () => (
           <Route path="/tutoring" element={<Tutoring />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/speaking" element={<Speaking />} />
+          <Route path="/judging" element={<Judging />} />
           <Route path="/research" element={<Research />} />
           <Route path="/building" element={<Navigate to="/work#more-builds" replace />} />
           <Route path="/extraordinaire" element={evidencePage} />
