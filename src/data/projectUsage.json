@@ -1,16 +1,16 @@
 {
   "source": "Vercel Web Analytics",
-  "since": "2026-10-27T00:00:00.000Z",
-  "until": "2026-11-26T00:00:00.000Z",
-  "updatedAt": "2026-11-26T08:15:18.322Z",
+  "since": "2026-10-28T00:00:00.000Z",
+  "until": "2026-11-27T00:00:00.000Z",
+  "updatedAt": "2026-11-27T08:36:53.961Z",
   "projects": {
     "axiom": {
-      "visitors": 77,
-      "pageviews": 162
+      "visitors": 80,
+      "pageviews": 171
     },
     "buzzer": {
-      "visitors": 130,
-      "pageviews": 713
+      "visitors": 136,
+      "pageviews": 739
     }
   }
 }
